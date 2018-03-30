@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Postulator</title>
+
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #444;
+            font-family: sans-serif;
+        }
+        header {
+            padding: 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+        main {
+            padding: 20px;
+            font-size: 11px;
+        }
+        main table {
+            width: 100%;
+        }
+        main > table th {
+            text-align: left;
+            border-bottom: 2px solid #444;
+            padding: 5px 10px;
+        }
+        main > table tr:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+        main > table td {
+            border-bottom: 1px solid #444;
+            padding: 5px 10px;
+        }
+        main > table tr.no-poster td {
+            color: #999;
+        }
+        main > table tr.duplicate {
+            background: rgba(255, 255, 150, 0.3);
+        }
+        main > table tr.not-found {
+            border-right: 5px solid #900;
+        }
+        main > table tr td.first-of-lkr {
+            font-weight: bold;
+            color: #444;
+        }
+        main > table tr td.not-first-of-lkr {
+            color: rgba(0, 0, 0, 0);
+        }
+        main > table tr td.kreisfrei {
+            color: #444;
+            font-style: italic;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Plakatierung LTW18.1 Piratenpartei Niederbayern</h1>
+    <nav>
+        <form th:action="@{/}" method="get">
+            <label>
+                <input type="checkbox" name="filtered" th:checked="${filtered}">
+                Gemeinden ohne Plakate ausblenden
+            </label>
+            <button type="submit">&raquo;</button>
+            <a th:href="@{/map}">Karte</a>
+        </form>
+    </nav>
+</header>
+
+<main>
+    <table cellspacing="0">
+        <thead>
+        <tr>
+            <th>Landkreis</th>
+            <th>Gemeinde</th>
+            <th>Adresse</th>
+            <th>Kontakt</th>
+            <th>E-Mail-Adresse</th>
+            <th>Einwohner</th>
+            <th>Plakate</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="gl,s: ${data}"
+            th:class="(${gl.posterCount} > 0 ? '' : 'no-poster') + (${gl.location.duplicate} ? ' duplicate' : '') + (${gl.location.notFound} ? ' not-found' : '')">
+            <td th:text="${gl.gemeinde.landkreis} eq null ? 'Kreisfrei' : ${gl.gemeinde.landkreis}"
+                th:class="(${gl.gemeinde.landkreis} eq null ? 'kreisfrei ' : '')+(${gl.gemeinde.landkreis} neq null and ${s.index} gt 0 and ${data[s.index-1].gemeinde.landkreis} == ${gl.gemeinde.landkreis} ? 'not-first-of-lkr' : 'first-of-lkr')"></td>
+            <td th:text="${gl.gemeinde.gemeinde}"></td>
+            <td th:text="${gl.gemeinde.adresse}"></td>
+            <td th:text="${gl.gemeinde.kontakt}"></td>
+            <td th:text="${gl.gemeinde.email}"></td>
+            <td th:text="${gl.location.value}" align="right"></td>
+            <td th:text="${gl.posterCount}" align="right"></td>
+        </tr>
+        </tbody>
+    </table>
+    <p>Berechnete Gesamtanzahl der Plakete: <span th:text="${posterSum}"></span></p>
+    <p>In <span th:text="${posterLocationsCount}"></span> von <span th:text="${#lists.size(data)}"></span>
+        Gemeinden/Städten.</p>
+</main>
+
+</body>
+
+</html>

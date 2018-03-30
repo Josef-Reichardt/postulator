@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Postulator - Map</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.css"
+          integrity="sha256-rQq4Fxpq3LlPQ8yP11i6Z2lAo82b6ACDgd35CKyNEBw=" crossorigin="anonymous"/>
+
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #444;
+            font-family: sans-serif;
+        }
+        header {
+            padding: 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+        main {
+            padding: 20px;
+            font-size: 11px;
+        }
+        main > .map {
+            width: 100%;
+            height: 550px;
+        }
+        main > .list {
+            margin-top: 20px;
+        }
+
+        main > .list > table {
+            width: 100%;
+        }
+        main > .list > table th {
+            text-align: left;
+            border-bottom: 2px solid #444;
+            padding: 5px 10px;
+        }
+        main > .list > table tr:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+        main > .list > table td {
+            border-bottom: 1px solid #444;
+            padding: 5px 10px;
+        }
+        main > .list > table tr.no-poster td {
+            color: #999;
+        }
+        main > .list > table tr.duplicate {
+            background: rgba(255, 255, 150, 0.3);
+        }
+        main > .list > table tr.not-found {
+            border-right: 5px solid #900;
+        }
+        main > .list > table tr td.first-of-lkr {
+            font-weight: bold;
+            color: #444;
+        }
+        main > .list > table tr td.not-first-of-lkr {
+            color: rgba(0, 0, 0, 0);
+        }
+        main > .list > table tr td.kreisfrei {
+            color: #444;
+            font-style: italic;
+        }
+        main > .list > table tr td.col-gemeinde {
+            color: #fff;
+        }
+
+        footer {
+            font-size: 11px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Plakatierung LTW18.1 Piratenpartei Niederbayern</h1>
+    <div class="filter">
+        <label>
+            <input type="checkbox" id="filter-checkbox">
+            Gemeinden/Städte ohne Plakate ausblenden
+        </label>
+    </div>
+</header>
+
+<main>
+    <div id="map" class="map"></div>
+    <div id="list" class="list"></div>
+</main>
+
+<footer>
+    <p>
+        Es wurden insgesamt <span th:text="${posterSum}"></span> Plakate
+        in <span th:text="${posterLocationsCount}"></span>
+        von <span th:text="${#lists.size(data)}"></span>
+        Gemeinden/Städten errechnet.
+    </p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"
+        integrity="sha256-77IKwU93jwIX7zmgEBfYGHcmeO0Fx2MoWB/ooh9QkBA=" crossorigin="anonymous"></script>
+<script th:inline="javascript">
+    var data = /*[[${data}]]*/ [{gemeinde: { gemeinde: 'Deggendorf' }, location: { coordinates: ['12.899,48.951 12.899,48.952 12.897,48.953 12.895,48.955 12.893,48.955 12.89,48.951 12.889,48.95 12.887,48.951 12.884,48.949 12.882,48.95 12.881,48.95 12.876,48.951 12.871,48.954 12.871,48.953 12.871,48.951 12.872,48.95 12.873,48.949 12.874,48.947 12.873,48.947 12.872,48.946 12.87,48.946 12.867,48.946 12.866,48.946 12.866,48.945 12.866,48.944 12.866,48.943 12.866,48.942 12.87,48.94 12.87,48.939 12.87,48.938 12.869,48.938 12.869,48.937 12.866,48.937 12.864,48.935 12.864,48.934 12.863,48.934 12.865,48.933 12.866,48.933 12.864,48.932 12.864,48.932 12.864,48.932 12.864,48.932 12.86,48.93 12.858,48.929 12.858,48.93 12.856,48.929 12.856,48.929 12.856,48.929 12.857,48.928 12.858,48.927 12.86,48.926 12.863,48.927 12.863,48.928 12.863,48.928 12.862,48.93 12.864,48.929 12.864,48.929 12.866,48.93 12.869,48.93 12.87,48.929 12.869,48.929 12.869,48.927 12.872,48.925 12.87,48.924 12.869,48.924 12.868,48.924 12.867,48.924 12.866,48.923 12.866,48.921 12.866,48.921 12.868,48.92 12.869,48.919 12.867,48.919 12.864,48.919 12.865,48.918 12.866,48.918 12.867,48.917 12.867,48.917 12.87,48.917 12.871,48.916 12.871,48.914 12.872,48.914 12.873,48.914 12.875,48.914 12.875,48.914 12.876,48.913 12.878,48.913 12.878,48.912 12.878,48.912 12.878,48.911 12.877,48.911 12.876,48.911 12.876,48.911 12.875,48.911 12.875,48.913 12.874,48.912 12.874,48.912 12.875,48.911 12.874,48.911 12.876,48.909 12.876,48.908 12.876,48.908 12.876,48.907 12.875,48.907 12.874,48.907 12.873,48.908 12.872,48.908 12.872,48.908 12.871,48.908 12.871,48.908 12.871,48.907 12.871,48.906 12.871,48.906 12.87,48.906 12.87,48.905 12.869,48.905 12.868,48.905 12.867,48.905 12.866,48.905 12.865,48.905 12.863,48.904 12.863,48.903 12.863,48.903 12.863,48.902 12.863,48.902 12.863,48.902 12.864,48.901 12.865,48.901 12.865,48.901 12.865,48.901 12.865,48.9 12.865,48.9 12.865,48.9 12.865,48.899 12.864,48.899 12.863,48.899 12.863,48.899 12.862,48.898 12.862,48.897 12.862,48.896 12.865,48.896 12.867,48.896 12.868,48.896 12.869,48.895 12.871,48.894 12.875,48.892 12.877,48.893 12.879,48.892 12.881,48.891 12.881,48.891 12.881,48.891 12.881,48.892 12.881,48.892 12.881,48.892 12.882,48.893 12.882,48.893 12.883,48.893 12.883,48.894 12.884,48.894 12.884,48.895 12.884,48.895 12.885,48.895 12.885,48.895 12.886,48.895 12.886,48.895 12.887,48.895 12.887,48.895 12.887,48.895 12.888,48.895 12.888,48.895 12.888,48.896 12.888,48.896 12.888,48.896 12.889,48.897 12.889,48.897 12.892,48.897 12.893,48.897 12.896,48.895 12.899,48.895 12.9,48.895 12.9,48.894 12.9,48.893 12.902,48.892 12.906,48.891 12.909,48.89 12.906,48.886 12.906,48.882 12.904,48.882 12.904,48.882 12.906,48.881 12.906,48.88 12.904,48.881 12.907,48.878 12.91,48.875 12.911,48.876 12.913,48.874 12.916,48.875 12.917,48.875 12.918,48.874 12.92,48.875 12.919,48.876 12.92,48.878 12.92,48.879 12.922,48.879 12.922,48.878 12.925,48.878 12.928,48.877 12.927,48.876 12.929,48.875 12.929,48.875 12.93,48.874 12.93,48.876 12.932,48.875 12.933,48.875 12.935,48.875 12.935,48.876 12.936,48.876 12.937,48.876 12.939,48.875 12.942,48.875 12.944,48.879 12.944,48.881 12.951,48.881 12.951,48.886 12.948,48.889 12.948,48.901 12.947,48.902 12.949,48.907 12.949,48.909 12.949,48.91 12.948,48.911 12.948,48.913 12.947,48.914 12.947,48.915 12.949,48.917 12.948,48.919 12.947,48.92 12.95,48.924 12.95,48.926 12.951,48.929 12.949,48.929 12.949,48.93 12.948,48.931 12.947,48.932 12.949,48.934 12.947,48.936 12.948,48.937 12.95,48.935 12.953,48.936 12.954,48.937 12.953,48.939 12.953,48.941 12.952,48.941 12.951,48.942 12.946,48.942 12.946,48.941 12.946,48.94 12.945,48.94 12.944,48.94 12.941,48.94 12.938,48.939 12.933,48.937 12.927,48.938 12.923,48.938 12.922,48.937 12.921,48.936 12.919,48.937 12.917,48.937 12.915,48.937 12.913,48.938 12.911,48.939 12.91,48.94 12.909,48.94 12.907,48.942 12.905,48.944 12.902,48.946 12.901,48.948 12.901,48.948 12.902,48.95 12.899,48.951']}, posterCount: 8 }];
+
+    function getColor(entry) {
+        str = btoa(entry.gemeinde.gemeinde + entry.location.value);
+        var hex = '';
+        for(var i=0;i<str.length;i++) {
+            hex += ''+str.charCodeAt(i).toString(16);
+        }
+        return hex.substring(hex.length - 6).toUpperCase();
+    }
+
+    function refreshMap(filtered) {
+        document.getElementById('map').innerHTML = 'Lade Karte ...';
+        var vectorSource = new ol.source.Vector();
+        for(var i=0; i<data.length;i++) {
+            if(data[i].location.coordinates === null || (filtered && data[i].posterCount === 0)) {
+                continue;
+            }
+            var polygon = new ol.geom.Polygon(data[i].location.coordinates.map(function(coords) {
+                return coords.split(' ').map(function(coord) {
+                    return coord.split(',').map(function(f) {
+                        return parseFloat(f);
+                    });
+                });
+            }));
+            polygon.applyTransform(ol.proj.getTransform('EPSG:4326', 'EPSG:3857'));
+            var feature = new ol.Feature(polygon);
+            var rgb = getColor(data[i]),
+                r = parseInt(rgb.substr(0,2),16),
+                g = parseInt(rgb.substr(2,2),16),
+                b = parseInt(rgb.substr(4,2),16);
+            feature.setStyle(new ol.style.Style({
+                fill: new ol.style.Fill({color: [r,g,b,0.2]}),
+                stroke: new ol.style.Stroke({
+                    color: [r,g,b,0.6],
+                    width: 2
+                }),
+                text: new ol.style.Text({
+                    text: '' + data[i].posterCount,
+                    fill: new ol.style.Fill({ color: "#000000" }),
+                    stroke: new ol.style.Stroke({ color: "#FFFFFF", width: 2 })
+                })
+            }));
+            vectorSource.addFeature(feature);
+        }
+        var vectorLayer = new ol.layer.Vector({
+            source: vectorSource
+        });
+
+        document.getElementById('map').innerHTML = '';
+        var map = new ol.Map({
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                }),
+                vectorLayer
+            ],
+            target: 'map',
+            view: new ol.View({
+                center: [1415887.1440500917, 6222030.408660727],
+                zoom: 9
+            })
+        });
+    }
+
+    function refreshTable(filtered) {
+        var listTarget = document.getElementById('list');
+        listTarget.innerHTML = 'Lade Liste ...';
+        var table = '<table cellspacing="0"><thead><tr>'
+                +'<th>Landkreis</th>'
+                +'<th>Gemeinde</th>'
+                +'<th>Adresse</th>'
+                +'<th>Kontakt</th>'
+                +'<th>E-Mail-Adresse</th>'
+                +'<th>Einwohner</th>'
+                +'<th>Plakate</th>'
+            + '</tr></thead><tbody>';
+        var lastLandkreis = '';
+        var emailMap = {};
+        for(var i=0; i<data.length;i++) {
+            if(filtered && data[i].posterCount === 0) {
+                continue;
+            }
+            table += '<tr class="'
+                + (data[i].posterCount > 0 ? '' : 'no-poster')
+                + (data[i].location.duplicate ? ' duplicate' : '')
+                + (data[i].location.notFound ? ' not-found' : '') + '">';
+            table += '<td class="'
+                + (data[i].gemeinde.landkreis === null ? 'kreisfrei ' : '')
+                + (data[i].gemeinde.landkreis !== null && lastLandkreis === data[i].gemeinde.landkreis ? 'not-first-of-lkr' : 'first-of-lkr')
+                + '">'+(data[i].gemeinde.landkreis === null ? 'Kreisfrei' : data[i].gemeinde.landkreis)+'</td>';
+            lastLandkreis = data[i].gemeinde.landkreis;
+            table += `<td class="col-gemeinde" style="background: #${getColor(data[i])};">${data[i].gemeinde.gemeinde}</td>`;
+            table += `<td>${data[i].gemeinde.adresse.replace('\n','<br>')}</td>`;
+            table += `<td>${data[i].gemeinde.kontakt.replace('\n','<br>')}</td>`;
+            var cellStyle = data[i].gemeinde.email && data[i].gemeinde.email.replace(/\s+/, '').length ? '' : 'background: red;';
+            var emailDuplicateInfo = data[i].gemeinde.email != null && emailMap[data[i].gemeinde.email] ? ' (<span title="'+emailMap[data[i].gemeinde.email].join(', ')+'">bereits verwendet</span>)' : ''
+            emailMap[data[i].gemeinde.email || 'null'] = emailMap[data[i].gemeinde.email || 'null'] || [];
+            emailMap[data[i].gemeinde.email || 'null'].push(data[i].gemeinde.gemeinde);
+            table += `<td style="${cellStyle}">${data[i].gemeinde.email || ''} ${emailDuplicateInfo}</td>`;
+            table += `<td>${data[i].location.value}</td>`;
+            table += `<td>${data[i].posterCount}</td>`;
+            table += '</tr>';
+        }
+        table += '</tbody></table>';
+        listTarget.innerHTML = table;
+    }
+
+
+    var checkbox = document.getElementById('filter-checkbox');
+    refreshMap(checkbox.checked);
+    refreshTable(checkbox.checked);
+    checkbox.onchange = function() {
+        refreshMap(checkbox.checked);
+        refreshTable(checkbox.checked);
+    }
+
+
+
+
+</script>
+</body>
+</html>
