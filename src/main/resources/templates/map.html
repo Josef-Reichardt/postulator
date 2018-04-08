@@ -78,6 +78,11 @@
             color: #fff;
         }
 
+        main > .csv-wrapper > textarea {
+            width: 100%;
+            min-height: 200px;
+        }
+
         footer {
             font-size: 11px;
             text-align: center;
@@ -91,7 +96,7 @@
     <h1>Plakatierung LTW18.1 Piratenpartei Niederbayern</h1>
     <div class="filter">
         <label>
-            <input type="checkbox" id="filter-checkbox">
+            <input type="checkbox" id="filter-checkbox" checked="checked">
             Gemeinden/Städte ohne Plakate ausblenden
         </label>
     </div>
@@ -100,6 +105,10 @@
 <main>
     <div id="map" class="map"></div>
     <div id="list" class="list"></div>
+    <div id="csv" class="csv-wrapper">
+        <h3>CSV</h3>
+        <textarea readonly="readonly" id="csv-textarea"></textarea>
+    </div>
 </main>
 
 <footer>
@@ -220,6 +229,15 @@
         }
         table += '</tbody></table>';
         listTarget.innerHTML = table;
+
+        var textarea = document.getElementById('csv-textarea');
+        var lineNumber = 0;
+        textarea.value = 'NR;EMAIL;ORT\n';
+        for(var email in emailMap) {
+            if(emailMap.hasOwnProperty(email)) {
+                textarea.value += (++lineNumber) + ';"' + email + '";"' + emailMap[email].join(', ').replace('"', '""') + '"\n';
+            }
+        }
     }
 
 

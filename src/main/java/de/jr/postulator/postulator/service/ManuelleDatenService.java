@@ -65,6 +65,32 @@ public class ManuelleDatenService {
                                         g.setEmail("rathaus@langquaid.de");
                                     } else if (g.getGemeinde().equals("Stadt Eggenfelden")) {
                                         g.setEmail("redaktion@eggenfelden.de");
+                                    } else if (g.getGemeinde().endsWith("VG Lalling")) {
+                                        g.setEmail("poststelle@vgem-lalling.bayern.de");
+                                    } else if (g.getGemeinde().endsWith("VG Oberpöring")) {
+                                        g.setEmail("poststelle@vgem-oberpoering.bayern.de");
+                                    } else if (g.getGemeinde().endsWith("VG Mamming")) {
+                                        g.setEmail("vg@mamming.de");
+                                    } else if (g.getGemeinde().endsWith("Hinterschmiding")) {
+                                        g.setEmail("info@vg-hinterschmiding.de");
+                                    } else if (g.getGemeinde().endsWith("Perlesreut")) {
+                                        g.setEmail("info@perlesreut.de");
+                                    } else if (g.getGemeinde().endsWith("Ringelai")) {
+                                        g.setEmail("gemeinde@ringelai.bayern.de");
+                                    } else if (g.getGemeinde().equals("Gemeinde Wildenberg VG Siegenburg")) {
+                                        g.setEmail("poststelle-vgem-siegenburg@siegenburg.de");
+                                    } else if (g.getGemeinde().equals("Gemeinde Aicha vorm Wald")) {
+                                        g.setEmail("info@aichavormwald.de");
+                                    } else if (g.getGemeinde().endsWith("VG Ering")
+                                            || g.getGemeinde().equals("Gemeinde Ering")
+                                            || g.getGemeinde().equals("Verwaltungsgemeinschaft Ering")) {
+                                        g.setEmail("info@ering-inn.de");
+                                    } else if (g.getGemeinde().equals("Gemeinde Julbach")) {
+                                        g.setEmail("poststelle@julbach.de");
+                                    } else if (g.getGemeinde().equals("Gemeinde Schönau")) {
+                                        g.setEmail("gemeinde@schoenau.bayern.de");
+                                    } else if (g.getGemeinde().equals("Gemeinde Rattenberg")) {
+                                        g.setEmail("gemeinde@rattenberg.de");
                                     }
 
                                     String locationTitleCleaned = l.getTitle().toLowerCase()
