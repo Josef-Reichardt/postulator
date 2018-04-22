@@ -1,0 +1,76 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #444;
+    font-family: sans-serif;
+}
+header {
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+main {
+    padding: 20px;
+    font-size: 11px;
+}
+main > .map {
+    width: 100%;
+    height: 550px;
+}
+main > .list {
+    margin-top: 20px;
+}
+
+main > .list > table {
+    width: 100%;
+}
+main > .list > table th {
+    text-align: left;
+    border-bottom: 2px solid #444;
+    padding: 5px 10px;
+}
+main > .list > table tr:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+main > .list > table td {
+    border-bottom: 1px solid #444;
+    padding: 5px 10px;
+}
+main > .list > table tr.no-poster td {
+    color: #999;
+}
+main > .list > table tr.duplicate {
+    background: rgba(255, 255, 150, 0.3);
+}
+main > .list > table tr.not-found {
+    border-right: 5px solid #900;
+}
+main > .list > table tr td.first-of-lkr {
+    font-weight: bold;
+    color: #444;
+}
+main > .list > table tr td.not-first-of-lkr {
+    color: rgba(0, 0, 0, 0);
+}
+main > .list > table tr td.kreisfrei {
+    color: #444;
+    font-style: italic;
+}
+main > .list > table tr td.col-gemeinde {
+    color: #fff;
+}
+
+main > .csv-wrapper > textarea {
+    width: 100%;
+    min-height: 200px;
+}
+
+footer {
+    font-size: 11px;
+    text-align: center;
+}
