@@ -96,6 +96,8 @@ function refreshTable(filtered) {
     '<th>Plakate (berechnet)</th>' +
     '<th>Genehmigungsfrei?</th>' +
     '<th>Regelungen</th>' +
+    '<th>Plakatierungsbeginn</th>' +
+    '<th>Plakatierungsende</th>' +
     '</tr></thead><tbody>';
   var lastLandkreis = '';
   var emailMap = {};
@@ -124,6 +126,8 @@ function refreshTable(filtered) {
     table += `<td>${data[i].posterCount}</td>`;
     table += `<td>${data[i].withoutAuthorization === true ? 'Ja' : (data[i].withoutAuthorization === true ? 'Nein' : 'Unbekannt')}</td>`;
     table += `<td>${data[i].rules || ''}</td>`;
+    table += `<td>${data[i].before || ''}</td>`;
+    table += `<td>${data[i].after || ''}</td>`;
     table += '</tr>';
   }
   table += '</tbody></table>';

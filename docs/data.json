@@ -97,7 +97,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -117,7 +122,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 28
+  "posterCount": 28,
+  "withoutAuthorization": false,
+  "rules": "Mitzuteilung, dass plakatiert wird erforderling, man erhält ein Anmeldeschreiben des Ordnungsamtes; An Verkehrszeichen nur, wenn sich diese auf den ruhenden Verkehr beziehen; Nicht an Bäumen",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "6 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -237,7 +247,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Pro Ortsteil nur ein doppelseitig bedrucktes DIN A 1-Plakat pro Fahrtrichtung; Ausschließlich an den dafür gekennzeichneten Straßenlaternen",
+  "review": true,
+  "before": "",
+  "after": "\"umgehend\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -297,7 +312,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Plakatanzahl & -größe muss gemeldet werden, dann erhält man eine schriftliche Bestätigung mit der Angabe der Aufstellungsorte",
+  "review": true,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -317,7 +337,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -542,7 +567,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 20
+  "posterCount": 20,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -682,7 +712,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nur \"bewegliche Wahlplakatständer\" auf Gehsteigen und außerhalb von Verkehrsflächen liegenden Grundstücken",
+  "review": true,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -722,7 +757,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Nur innerorts; min. 2m hoch aufhängen; Die Ortsdurchfahrtsstraßen gehören nicht zur Gemeinde sondern zum Landkreis",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -942,7 +982,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Anmeldung mit Ansprechpartner, Rechnungsempfänger und Einverständniserklärung zur kostenpflichtigen Entfernung falls die Frist nicht eingehalten wird",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1127,7 +1172,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Anmeldung mit Ansprechpartner, Rechnungsempfänger und Einverständniserklärung zur kostenpflichtigen Entfernung falls die Frist nicht eingehalten wird",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1667,7 +1717,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 16
+  "posterCount": 16,
+  "withoutAuthorization": false,
+  "rules": "Min. 2,5m hoch; nicht an Stromkästen; nicht direkt an Ortseinfahrten und -ausfahrten; nicht an Buswartehäuschen und Straßenlampen; Anschrift und Rufnummer muss auf dem Plakat stehen; ",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1727,7 +1782,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nicht an \"Straßenbäumen\" oder Buswartehäuschen",
+  "review": false,
+  "before": "",
+  "after": "unmittelbar nach der Wahl"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1847,7 +1907,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatwänden",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -1867,7 +1932,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatständern: Altdorf: Altmannplatz, Unterwerkstr. (Sereda), Eugenbacher Str. Grünanlage, Thüringer Str., Bahnhofstr. - Oberptiller, Hauptstr. - Lehrerwohnhaus Grünstreifen, Hauptsr. - Götzstr, Hauptstr. - Bereich Frauenbauer, Bernsteinstr. Gemeindegrundstück (Petz), Altdorf-Süd - Grundstück noch festzulegen; Pfettrach: Pfeffenhausener Str. - Abfahrt Rabauer, Pfeffenhausener Str. - Oberglaimer Str.; Eugenbach: Weiher, Bucherstr. - altes Feuerwehrhaus oder Schöttl, Egenbacher Str. 126 (Nirschl Konrad), Münchnerauer Str.",
+  "review": true,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -1967,7 +2037,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Max. Din A1; max. 10 Stück",
+  "review": true,
+  "before": "",
+  "after": "\"zeitnah\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2047,7 +2122,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": true,
+  "rules": "Nur innerorts; \"Die Stadtwerke Landshut (Tel. 0871/14362101) im Bereich Piflas und das Bayernwerk für die Eingemeindungen (Tel. 0871/966390) sind als Eigentümer der Straßenbeleuchtung von der Anbringung der Plakate zu unterrichten bzw. ist deren Erlaubnis einzuholen.\"",
+  "review": true,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2187,7 +2267,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatwänden",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2207,7 +2292,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatwänden",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2247,7 +2337,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2392,7 +2487,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2412,7 +2512,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Nur an Wahlplakatständern: Rottenburg, Neufahrner Straße, Einmündung Georg-Pöschl-Straße; Rottenburg, Landshuter Straße 55 auf Höhe Aldi; Rottenburg, Max-von-Müller-Straße 31, beim Busbahnhof; Rottenburg, Pater-Wilhelm-Fink-Straße 16 beim Freibad; Oberhatzkofen, Hauptstraße 7, Neben dem Buswartehäuschen; Pattendorf, Ritter-Hans-Ebron-Straße 2, Nähe Wasserzweckverband",
+  "review": false,
+  "before": "Ab Mitte August",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2432,7 +2537,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2472,7 +2582,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2592,7 +2707,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "1 Plakat im Bereich Ortsanfang bis zum Altersheim, Landshuter Str. 6 und 1 Plakat im Bereich Ortsende bis ehemaliges Gasthaus Rapp",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2977,7 +3097,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3331,7 +3456,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3571,7 +3701,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3631,7 +3766,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "4 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3711,7 +3851,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Hohlkammer, Plakatträger oder auf Anschlagtafeln: beim Rathaus, bei Michael Lemberger, in Bruck, in Trametsried (Weiß Konrad), in Abtschlag (Hinterberger Str.), in Grünbach (Buswartehäuschen), in Schlag (neben Buswartehäuschen), in Haid",
+  "review": false,
+  "before": "8 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3811,7 +3956,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nicht an Verkehrszeichen",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3831,7 +3981,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "8 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3971,7 +4126,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": false,
+  "rules": "Muss angemeldet und genehmigt werden",
+  "review": true,
+  "before": "4 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4071,7 +4231,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nicht an Buswartehäuschen, Verkehrsschildern und Hinweistafeln",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "2 Wochen"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4411,7 +4576,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 16
+  "posterCount": 16,
+  "withoutAuthorization": true,
+  "rules": "Nur an 11 bereitgestellten Plakatständern; Standorte werden noch mitgeteilt",
+  "review": true,
+  "before": "17.09.2018",
+  "after": "14.10.2018"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
