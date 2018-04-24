@@ -57,7 +57,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nicht an folgenden Grundstücken (Gebäude, Zäune, etc): Außernzell, Eginger Str. 1 und 3 (Würzinger-Haus) Außernzell, Eginger Str., Kriegerdenkmal, Fl.Nr.12/4 Außernzell, Schulstraße 1, Pfarrkirche",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -124,7 +129,7 @@
   },
   "posterCount": 28,
   "withoutAuthorization": false,
-  "rules": "Mitzuteilung, dass plakatiert wird erforderling, man erhält ein Anmeldeschreiben des Ordnungsamtes; An Verkehrszeichen nur, wenn sich diese auf den ruhenden Verkehr beziehen; Nicht an Bäumen",
+  "rules": "Mitteilung, dass plakatiert wird erforderlich, man erhält ein Anmeldeschreiben des Ordnungsamtes; An Verkehrszeichen nur, wenn sich diese auf den ruhenden Verkehr beziehen; Nicht an Bäumen",
   "review": false,
   "before": "6 Wochen",
   "after": "6 Tage"
@@ -167,7 +172,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Plakatierung muss der Gemeinde gemeldet werden; Nich an Verkehrszeichen, Bäumen, Busäuschen, Friedhofsmauern/-einrichtungen",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -207,7 +217,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Plakatierung muss der Gemeinde gemeldet werden",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -272,7 +287,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Plakatierung muss der Gemeinde gemeldet werden; Nich an Verkehrszeichen, Bäumen, Busäuschen, Friedhofsmauern/-einrichtungen, Straßenlampe beim Anwesen Hauptstr. 1",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -292,7 +312,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Plakatierung muss der Gemeinde gemeldet werden",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -382,7 +407,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an Straßenlaternen; min. 2,2m hoch; max. 10 Stück pro Gemeinde",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -447,7 +477,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an Straßenlaternen; min. 2,2m hoch; max. 10 Stück pro Gemeinde",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -467,7 +502,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 16
+  "posterCount": 16,
+  "withoutAuthorization": false,
+  "rules": "Schriftliche Anmeldung per E-Mail oder Post mit Anschrift, Ansprechpartner, Maße und Entwurf des Plakates erforderlich",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -487,7 +527,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -527,7 +572,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an Straßenlaternen; min. 2,2m hoch; max. 10 Stück pro Gemeinde",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -1719,7 +1769,7 @@
   },
   "posterCount": 16,
   "withoutAuthorization": false,
-  "rules": "Min. 2,5m hoch; nicht an Stromkästen; nicht direkt an Ortseinfahrten und -ausfahrten; nicht an Buswartehäuschen und Straßenlampen; Anschrift und Rufnummer muss auf dem Plakat stehen; ",
+  "rules": "Min. 2,5m hoch; nicht an Stromkästen; nicht direkt an Ortseinfahrten und -ausfahrten; nicht an Buswartehäuschen und Straßenlampen; Anschrift und Rufnummer muss auf dem Plakat stehen",
   "review": false,
   "before": "6 Wochen",
   "after": "1 Woche"
@@ -2017,7 +2067,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Von der Gemeinde ist hier \"keine Plakatierung vorgesehen\"",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2147,7 +2202,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "zusätzlich werden Plakatwände aufgestellt",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2167,7 +2227,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "zusätzlich werden Plakatwände aufgestellt",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2857,7 +2922,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Nicht in Kreisverkehren oder im Zugangsbereich der Wahllokale: Bad Füssing, Rathaus, Rathausstr. 6-8 / Aigen a.Inn, Trachtenheim, Irchinger Str. 16 / Egglfing a.Inn, Bürgersaal, Pichlstr. 8 / Würding, Bürgerhaus, Hartkirchener Str. 11 / Safferstetten, Feuerwehrhaus, Schulungsraum, Inntalstr. 1",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -2937,7 +3007,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Plakatierung muss angemeldet werden; Nicht an Bäumen oder Orten auf der örtlichen \"Negativliste\"; Min. 2m hoch; Max Din A1",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -2957,7 +3032,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nicht beim Kreisverkehr",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3416,7 +3496,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -4006,7 +4091,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nicht im Bereich \"Hofmark\" (Ortskern)",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4376,7 +4466,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Min. 2m hoch",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4436,7 +4531,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Plakatwände werden aufgestellt und von der Gemeinde plakatiert - dazu 2 x DIN A1 Plakat im Bauhof oder Rathaus abgeben",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4476,7 +4576,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Auf 5 bereitgestellten Großplakatständern (Vorder- und Rückseite nutzbar); max. Din A1; max. 10 Plakate (eines je Feld); Antrag erforderlich",
+  "review": false,
+  "before": "10.08.2018",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
