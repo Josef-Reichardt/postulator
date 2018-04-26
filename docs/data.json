@@ -17,7 +17,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Anträge werden einzeln vom ersten Bürgermeister geprüft",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -37,7 +42,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -82,7 +92,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -387,7 +402,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -597,7 +617,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Nicht an Verkehrsschilder oder Brücken",
+  "review": false,
+  "before": "3 Monate",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -892,7 +917,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -912,7 +942,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "\"unmittelbar\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1387,7 +1422,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "\"unmittelbar\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1427,7 +1467,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "\"unmittelbar\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1511,7 +1556,7 @@
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
-    "gemeinde": "Verwaltungsgemeinschaft Donau",
+    "gemeinde": "Verwaltungsgemeinschaft Saal a. d. Donau",
     "adresse": "Rathausstra\u00DFe 4\n93342 Saal a. d. Donau",
     "kontakt": "Tel.: (0 94 41) 68 10\nFax: (0 94 41) 6 81 18",
     "email": "info@saal-donau.de"
@@ -1527,7 +1572,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Max. 10 Plakate; Nicht im neu gestalteten Ortskern",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1877,7 +1927,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 5 Plakate",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -2312,7 +2367,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "In KW 35 wird eine doppelseitige Großplakatwand am Marktplatz aufgestellt; Normale Plakate (z. B. Plakatständer) sind auch erlaubt",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2382,7 +2442,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nur an einfachen Peitschenlampen, nicht an den sog. Pilzlampen sowie an Baumschutzgittern; Nicht am Ortsanfang der Rottenburger Straße, von Türkenfeld her kommend, auf der rechten Seite bis zur Raiffeisenbank; Nicht an den Straßenlampen beim Kreisverkehr Weihenstephan",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2492,7 +2557,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Ausschließlich an der Litfaßsäule beim Rathaus (Anmerkung: Wenn da ein Wahllokal ist, darf gesetzlich keine Wahlwerbung angebracht werden!)",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2611,13 +2681,13 @@
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
-    "gemeinde": "Tiefenbach (88853)",
+    "gemeinde": "Tiefenbach",
     "adresse": "Hauptstra\u00DFe 42\n84184 Tiefenbach",
     "kontakt": "Tel.: (0 87 09) 9 21 10\nFax: (0 87 09) 92 11 20",
     "email": "gemeindetiefenbach@tiefenbach-gemeinde.de"
   },
   "location": {
-    "name": "<table class=\"tooltip\"><tr><td class=\"general-align-right\">Stadt\/Gem.\u0026nbsp;<\/td><td ><b>Tiefenbach<\/b><\/td><\/tr><tr><td class=\"general-align-right\">Einwohnerzahl\u0026nbsp;<\/td><td class=\"general-align-left\">6.658 (2014)<\/td><\/tr><tr><td><\/td><td><a href=\"\/de\/einwohnerzahl\/stadt\/tiefenbach-94113\">Details<\/a><\/td><\/tr><\/table>",
+    "name": "<table class=\"tooltip\"><tr><td class=\"general-align-right\">Stadt\/Gem.\u0026nbsp;<\/td><td ><b>Tiefenbach<\/b><\/td><\/tr><tr><td class=\"general-align-right\">Einwohnerzahl\u0026nbsp;<\/td><td class=\"general-align-left\">6.658 (2014)<\/td><\/tr><tr><td><\/td><td><a href=\"\/de\/einwohnerzahl\/stadt\/tiefenbach-84184\">Details<\/a><\/td><\/tr><\/table>",
     "title": "Tiefenbach",
     "value": "6658",
     "locationId": "88853",
@@ -2627,7 +2697,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2837,7 +2912,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -2967,7 +3047,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3157,7 +3242,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Max. 10 Plakate",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3242,7 +3332,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Antrag mit Anzahl und Zeitraum erforderlich",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3282,7 +3377,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "8 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3476,7 +3576,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3531,7 +3636,7 @@
     "email": "info@tiefenbach.bayern.de"
   },
   "location": {
-    "name": "<table class=\"tooltip\"><tr><td class=\"general-align-right\">Stadt\/Gem.\u0026nbsp;<\/td><td ><b>Tiefenbach<\/b><\/td><\/tr><tr><td class=\"general-align-right\">Einwohnerzahl\u0026nbsp;<\/td><td class=\"general-align-left\">3.717 (2014)<\/td><\/tr><tr><td><\/td><td><a href=\"\/de\/einwohnerzahl\/stadt\/tiefenbach-84184\">Details<\/a><\/td><\/tr><\/table>",
+    "name": "<table class=\"tooltip\"><tr><td class=\"general-align-right\">Stadt\/Gem.\u0026nbsp;<\/td><td ><b>Tiefenbach<\/b><\/td><\/tr><tr><td class=\"general-align-right\">Einwohnerzahl\u0026nbsp;<\/td><td class=\"general-align-left\">3.717 (2014)<\/td><\/tr><tr><td><\/td><td><a href=\"\/de\/einwohnerzahl\/stadt\/tiefenbach-94113\">Details<\/a><\/td><\/tr><\/table>",
     "title": "Tiefenbach",
     "value": "3717",
     "locationId": "88767",
@@ -3706,7 +3811,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "2 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3766,7 +3876,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3896,7 +4011,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "2 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -3961,7 +4081,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nicht an Verkehrszeichen, Ampeln , Brücken",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4021,7 +4146,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "An Straßenlampen \"in entsprechender Höhe\"",
+  "review": false,
+  "before": "",
+  "after": "\"umgehend nach Abschluß der Wahl\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4116,7 +4246,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "2 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4136,7 +4271,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "2 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4196,7 +4336,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "2 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4366,7 +4511,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Max. 4 Plakate; max Din A2; An Lichtmasten",
+  "review": false,
+  "before": "",
+  "after": "\"zeitnah\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4426,7 +4576,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4446,7 +4601,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4601,7 +4761,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4661,7 +4826,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 3 Plakate; min. 2,25m hoch",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4746,7 +4916,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4911,7 +5086,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an Bushäuschen Huldsessen Dorfstraße, Bushäuschen Obermaisbach, Straßenlaternen im Gemeindebereich, jedoch nicht an welchen sich bereits Plakatträger befinden",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4931,7 +5111,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "\"umgehend\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4995,7 +5180,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 10 Plakate/Gemeinde im DIN A1-Format; min 2,2m hoch; nicht außerhalb geschlossener Ortschaften, im Bereich von Kirchen, in und an Friedhöfen und deren Eingängen, in Waldgebieten, an Bäumen und Grünanlagen, an und in öffentlichen Einrichtungen, an Verkehrszeichen, in Kurven sowie im Bereich von Kreuzungen, Einmündungen und Fußgängerüberwegen.",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5015,7 +5205,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Max. 5 Plakate je Ortsteil",
+  "review": false,
+  "before": "27 August 2018",
+  "after": "21. Oktober 2018"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5035,7 +5230,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Max. 5 Plakate je Ortsteil",
+  "review": false,
+  "before": "27 August 2018",
+  "after": "21. Oktober 2018"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5055,7 +5255,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5075,7 +5280,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 10 Plakate/Gemeinde im DIN A1-Format; min 2,2m hoch; nicht außerhalb geschlossener Ortschaften, im Bereich von Kirchen, in und an Friedhöfen und deren Eingängen, in Waldgebieten, an Bäumen und Grünanlagen, an und in öffentlichen Einrichtungen, an Verkehrszeichen, in Kurven sowie im Bereich von Kreuzungen, Einmündungen und Fußgängerüberwegen.",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5160,7 +5370,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Verwaltungsgebühr: 20 €; Nicht in den Ortsteilen, sowie an den historischen Straßenlampen; 1 Plakat pro Ortseingang: Landshuter Straße, Dingolfinger Straße, Regensburger Straße, Straubinger Straße, Hadersbacher Straße",
+  "review": false,
+  "before": "2 Wochen",
+  "after": "2 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5200,7 +5415,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5420,7 +5640,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5440,7 +5665,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5520,7 +5750,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5540,7 +5775,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 10 Plakate/Gemeinde im DIN A1-Format; min 2,2m hoch; nicht außerhalb geschlossener Ortschaften, im Bereich von Kirchen, in und an Friedhöfen und deren Eingängen, in Waldgebieten, an Bäumen und Grünanlagen, an und in öffentlichen Einrichtungen, an Verkehrszeichen, in Kurven sowie im Bereich von Kreuzungen, Einmündungen und Fußgängerüberwegen.",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5560,7 +5800,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 10 Plakate/Gemeinde im DIN A1-Format; min 2,2m hoch; nicht außerhalb geschlossener Ortschaften, im Bereich von Kirchen, in und an Friedhöfen und deren Eingängen, in Waldgebieten, an Bäumen und Grünanlagen, an und in öffentlichen Einrichtungen, an Verkehrszeichen, in Kurven sowie im Bereich von Kreuzungen, Einmündungen und Fußgängerüberwegen.",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5580,7 +5825,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 10 Plakate/Gemeinde im DIN A1-Format; min 2,2m hoch; nicht außerhalb geschlossener Ortschaften, im Bereich von Kirchen, in und an Friedhöfen und deren Eingängen, in Waldgebieten, an Bäumen und Grünanlagen, an und in öffentlichen Einrichtungen, an Verkehrszeichen, in Kurven sowie im Bereich von Kreuzungen, Einmündungen und Fußgängerüberwegen.",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5640,7 +5890,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Max. 5 Plakate je Ortsteil",
+  "review": false,
+  "before": "27 August 2018",
+  "after": "21. Oktober 2018"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5785,7 +6040,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Plakatierung ist anzuzeigen",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
