@@ -1,10 +1,10 @@
 var data = [];
 
-function getColor(entry) {
-  if(entry.review) {
+function getColor(entry, stroke) {
+  if(stroke !== true && entry.review) {
     return '6666FF';
   }
-  if (entry.posterCount === 0) {
+  if (stroke !== true && entry.posterCount === 0) {
     return '666666';
   }
   if (entry.withoutAuthorization === true) {
@@ -22,11 +22,12 @@ function getColor(entry) {
   // return hex.substring(hex.length - 6).toUpperCase();
 }
 
-function refreshMap(filtered) {
+function refreshMap(hideWithoutPoster, hideAuthorizationRequired) {
   document.getElementById('map').innerHTML = 'Lade Karte ...';
   var vectorSource = new ol.source.Vector();
   for (var i = 0; i < data.length; i++) {
-    if (data[i].location.coordinates === null || (filtered && data[i].posterCount === 0)) {
+    if (data[i].location.coordinates === null || (hideWithoutPoster && data[i].posterCount === 0)
+    || (hideAuthorizationRequired && data[i].withoutAuthorization !== true)) {
       continue;
     }
     var polygon = new ol.geom.Polygon(data[i].location.coordinates.map(function(coords) {
@@ -38,16 +39,20 @@ function refreshMap(filtered) {
     }));
     polygon.applyTransform(ol.proj.getTransform('EPSG:4326', 'EPSG:3857'));
     var feature = new ol.Feature(polygon);
-    var rgb = getColor(data[i]),
-      r = parseInt(rgb.substr(0, 2), 16),
-      g = parseInt(rgb.substr(2, 2), 16),
-      b = parseInt(rgb.substr(4, 2), 16);
+    var rgbFill = getColor(data[i], false),
+      rFill = parseInt(rgbFill.substr(0, 2), 16),
+      gFill = parseInt(rgbFill.substr(2, 2), 16),
+      bFill = parseInt(rgbFill.substr(4, 2), 16),
+      rgbStroke = getColor(data[i], true),
+      rStroke = parseInt(rgbStroke.substr(0, 2), 16),
+      gStroke = parseInt(rgbStroke.substr(2, 2), 16),
+      bStroke = parseInt(rgbStroke.substr(4, 2), 16);
     feature.setStyle(new ol.style.Style({
       fill: new ol.style.Fill({
-        color: [r, g, b, 0.2]
+        color: [rFill, gFill, bFill, 0.2]
       }),
       stroke: new ol.style.Stroke({
-        color: [r, g, b, 0.6],
+        color: [rStroke, gStroke, bStroke, 0.6],
         width: 2
       }),
       text: new ol.style.Text({
@@ -83,7 +88,7 @@ function refreshMap(filtered) {
   });
 }
 
-function refreshTable(filtered) {
+function refreshTable(hideWithoutPoster, hideAuthorizationRequired) {
   var listTarget = document.getElementById('list');
   listTarget.innerHTML = 'Lade Liste ...';
   var table = '<table cellspacing="0"><thead><tr>' +
@@ -102,7 +107,8 @@ function refreshTable(filtered) {
   var lastLandkreis = '';
   var emailMap = {};
   for (var i = 0; i < data.length; i++) {
-    if (filtered && data[i].posterCount === 0) {
+    if ((hideWithoutPoster && data[i].posterCount === 0)
+    || (hideAuthorizationRequired && data[i].withoutAuthorization !== true)) {
       continue;
     }
     table += '<tr class="' +
@@ -143,13 +149,18 @@ function refreshTable(filtered) {
   }
 }
 
+var withoutPoster = document.getElementById('filter-checkbox-without-poster'),
+    authorizationRequired = document.getElementById('filter-checkbox-authorization-required');
 fetch('data.json').then(d => d.json()).then(d => {
   data = d;
-  refreshMap(checkbox.checked);
-  refreshTable(checkbox.checked);
+  refreshMap(withoutPoster.checked, authorizationRequired.checked);
+  refreshTable(withoutPoster.checked, authorizationRequired.checked);
 });
-var checkbox = document.getElementById('filter-checkbox');
-checkbox.onchange = function() {
-  refreshMap(checkbox.checked);
-  refreshTable(checkbox.checked);
-}
+withoutPoster.onchange = function() {
+  refreshMap(withoutPoster.checked, authorizationRequired.checked);
+  refreshTable(withoutPoster.checked, authorizationRequired.checked);
+};
+authorizationRequired.onchange = function() {
+  refreshMap(withoutPoster.checked, authorizationRequired.checked);
+  refreshTable(withoutPoster.checked, authorizationRequired.checked);
+};

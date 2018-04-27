@@ -857,7 +857,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur auf die dafür vorgesehenen öffentlichen Informationstafeln (Abzweigung Schulstraße und in Oberviehbach neben dem Buswartehaus)",
+  "review": false,
+  "before": "",
+  "after": "2 Wochen"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -1512,7 +1517,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 7 Plakate",
+  "review": false,
+  "before": "4 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1597,7 +1607,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 7 Plakate; Nur an den Plakattafeln",
+  "review": false,
+  "before": "4 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1757,7 +1772,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 7 Plakate",
+  "review": false,
+  "before": "4 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1777,7 +1797,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Max. 7 Plakate",
+  "review": false,
+  "before": "4 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1842,7 +1867,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Genehmigungen werden im Einzelfall entschieden; \"nur einige wenige Plakate\"",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -2517,7 +2547,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nur an Straßenlampenmasten oder an den gemeindlichen Plakattafeln an den Ortseingängen",
+  "review": false,
+  "before": "",
+  "after": "\"umgehend\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -3072,7 +3107,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "1 Monat",
+  "after": "4 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3771,7 +3811,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "\"unverzüglich\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3991,7 +4036,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung erforderlich; max. 25 Plakate; max Din A0; Nur an Straßenlampen oder Halteverbotszeichen; min. 2,25m hoch",
+  "review": false,
+  "before": "8 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4491,7 +4541,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 16
+  "posterCount": 16,
+  "withoutAuthorization": false,
+  "rules": "Ausschließlich an den von der Stadt bestimmten Plakatsäulen und Plakatanschlagtafeln bzw. Großplakatständern (25 Stk. für je 10 Din A1-/Din A0-Plakate); die Verteilung der zur Verfügung stehenden Flächen erfolgt durch die Verwaltung; \"Wir werden Sie ca. 8 Wochen vor der Wahl schriftlich informieren, wie viele Flächen für Ihre Partei zur Verfügung gestellt werden und wo die Anbringung der Wahlplakate erfolgen kann.\"",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -5066,7 +5121,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Zusätzlich wären Plakatwände in Privatbesitz(!) vorhanden",
+  "review": false,
+  "before": "",
+  "after": "2 Wochen"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -5600,7 +5660,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "\"Gebühr sind normal 10 €/Woche\"; Max Din A0; In Mallersdorf und Pfaffenberg insgesamt max. 5 Plakate, in den übrigen Ortsteilen jeweils max. 2; Nur an Straßenlampen; Nicht an der Einmündung zum Wohnhaus Ascholtshausen 20; 75 cm zur Fahrbankante",
+  "review": true,
+  "before": "2 Wochen",
+  "after": "\"unmittelbar\""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -5850,7 +5915,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
@@ -6165,7 +6235,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 36
+  "posterCount": 36,
+  "withoutAuthorization": false,
+  "rules": "Max. Din A1; Nicht im Bereich Alt- und Innenstadt (begrenzt von Donau und Inn und einer Linie Bahnhofstraße, Dr.-Hans-Kapfinger-Straße, Kleiner Exerzierplatz und Augustinergasse, diese Straßen jeweils beidseitig eingeschlossen); nicht auf Brücken, bei der Schanzl- und Franz-Josef-Strauß-Brücke auch nicht auf den Rampen; Nur innerorts außer an der B 8 (Regensburger Straße) zwischen Stelzhamer Straße und Haitzingerbrücke, an der B 12 Nord (Bayerwaldstraße/Freyunger Straße) zwischen Ilzleite und Am Bramerhof, an der St 2120 (Neuburger Straße) zwischen  Pionierstraße und Messestraße, an der B 85 (Hacklberg) zwischen Stephanstraße und Vilshofener Straße; Nicht auf Verkehrsinseln oder Mittelstreifen, jeweils 50 m vor Kreuzungen und Einmündungen, an Pfosten oder Laternenmasten mit Verkehrszeichen, auch nicht auf deren Rückseite, an Bushaltestellen und Wartehäuschen, an Bauzäunen und Gerüsten auf öffentlichem Verkehrsgrund, an Bäumen; seitlicher Abstand von min. 0,5m zum Fahrbahnrand; min 2,25m hoch; Evtl. wird der Plakatierungsbeginn noch nach vorne (evtl. drei Monate vor Wahl) verlegt",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": null,
@@ -6185,5 +6260,10 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 36
+  "posterCount": 36,
+  "withoutAuthorization": false,
+  "rules": "Einzelheiten werden erst am 14.06.2018 entschieden",
+  "review": true,
+  "before": "8 Wochen",
+  "after": "1 Woche"
 }]
