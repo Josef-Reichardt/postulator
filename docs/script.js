@@ -4,7 +4,7 @@ function getColor(entry, stroke) {
   if(stroke !== true && entry.review) {
     return '6666FF';
   }
-  if (stroke !== true && entry.posterCount === 0) {
+  if (stroke !== true && (entry.posterCount === 0 || entry.posterCount2 === 0)) {
     return '666666';
   }
   if (entry.withoutAuthorization === true) {
@@ -26,7 +26,7 @@ function refreshMap(hideWithoutPoster, hideAuthorizationRequired) {
   document.getElementById('map').innerHTML = 'Lade Karte ...';
   var vectorSource = new ol.source.Vector();
   for (var i = 0; i < data.length; i++) {
-    if (data[i].location.coordinates === null || (hideWithoutPoster && data[i].posterCount === 0)
+    if (data[i].location.coordinates === null || (hideWithoutPoster && (data[i].posterCount === 0 || data[i].posterCount2 === 0))
     || (hideAuthorizationRequired && data[i].withoutAuthorization !== true)) {
       continue;
     }
@@ -56,7 +56,7 @@ function refreshMap(hideWithoutPoster, hideAuthorizationRequired) {
         width: 2
       }),
       text: new ol.style.Text({
-        text: '' + data[i].posterCount,
+        text: '' + data[i].posterCount2,
         fill: new ol.style.Fill({
           color: "#000000"
         }),
@@ -98,16 +98,19 @@ function refreshTable(hideWithoutPoster, hideAuthorizationRequired) {
     '<th>Kontakt</th>' +
     '<th>E-Mail-Adresse</th>' +
     '<th>Einwohner</th>' +
-    '<th>Plakate (berechnet)</th>' +
+    '<th>Plakate (berechnet Phase 1)</th>' +
     '<th>Genehmigungsfrei?</th>' +
     '<th>Regelungen</th>' +
     '<th>Plakatierungsbeginn</th>' +
     '<th>Plakatierungsende</th>' +
+    '<th>Plakate (berechnet Phase 2)</th>' +
     '</tr></thead><tbody>';
   var lastLandkreis = '';
   var emailMap = {};
+  var locationsSum = 0;
+  var posterSum = 0;
   for (var i = 0; i < data.length; i++) {
-    if ((hideWithoutPoster && data[i].posterCount === 0)
+    if ((hideWithoutPoster && (data[i].posterCount === 0 || data[i].posterCount2 === 0))
     || (hideAuthorizationRequired && data[i].withoutAuthorization !== true)) {
       continue;
     }
@@ -134,7 +137,10 @@ function refreshTable(hideWithoutPoster, hideAuthorizationRequired) {
     table += `<td>${data[i].rules || ''}</td>`;
     table += `<td>${data[i].before || ''}</td>`;
     table += `<td>${data[i].after || ''}</td>`;
+    table += `<td>${data[i].posterCount2}</td>`;
     table += '</tr>';
+    locationsSum++;
+    posterSum += data[i].posterCount2;
   }
   table += '</tbody></table>';
   listTarget.innerHTML = table;
@@ -147,12 +153,32 @@ function refreshTable(hideWithoutPoster, hideAuthorizationRequired) {
       textarea.value += (++lineNumber) + ';"' + email + '";"' + emailMap[email].join(', ').replace('"', '""') + '"\n';
     }
   }
+
+  document.getElementById('posterSum').innerHTML = '' + posterSum;
+  document.getElementById('locationsSum').innerHTML = '' + locationsSum;
+  document.getElementById('locationsCount').innerHTML = '' + data.length;
 }
 
 var withoutPoster = document.getElementById('filter-checkbox-without-poster'),
     authorizationRequired = document.getElementById('filter-checkbox-authorization-required');
 fetch('data.json').then(d => d.json()).then(d => {
   data = d;
+
+  var orderedByEinwohner = Array.prototype.slice.call(data)
+    .sort((a, b) => b.location.value - a.location.value);
+  var topTenNdb = orderedByEinwohner.slice(0, 10);
+  var topTenDeg = orderedByEinwohner.filter(d => d.gemeinde.landkreis === 'Landkreis Deggendorf').slice(0, 10);
+
+  for(var i=0; i<data.length; i++) {
+    if(topTenDeg.indexOf(data[i]) >= 0) {
+      data[i].posterCount2 = parseInt(data[i].posterCount * 1.5 / 4) * 4;
+    } else if(topTenNdb.indexOf(data[i]) >= 0) {
+      data[i].posterCount2 = parseInt(data[i].posterCount * 0.8 / 4) * 4;
+    } else {
+    data[i].posterCount2 = 0;
+    }
+  }
+
   refreshMap(withoutPoster.checked, authorizationRequired.checked);
   refreshTable(withoutPoster.checked, authorizationRequired.checked);
 });

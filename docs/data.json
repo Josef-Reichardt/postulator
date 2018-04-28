@@ -477,7 +477,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": true,
+  "rules": "Nicht am Stadtplatz, in der Altstadt und Vorstadt; nur an sog. Peitschenlampen",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -977,7 +982,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1022,7 +1032,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung erforderlich",
+  "review": false,
+  "before": "3 Monate",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1127,7 +1142,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1357,7 +1377,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung erforderlich",
+  "review": false,
+  "before": "3 Monate",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1377,7 +1402,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung erforderlich",
+  "review": false,
+  "before": "3 Monate",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1572,7 +1602,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1712,7 +1747,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 16
+  "posterCount": 16,
+  "withoutAuthorization": false,
+  "rules": "Max. 30 Plakate im Stadtgebiet und je 5 Plakate pro Ortsteil; Nicht in der Altstadt (zwischen den Stadttoren bzw. der Brücke über den Bräugraben)",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1732,7 +1772,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1962,7 +2007,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -2007,7 +2057,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -2027,7 +2082,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2837,7 +2897,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": false,
+  "rules": "Antrag erforderlich; An Verkehrszeichen nur, wenn diese sich auf den ruhenden Verkehr beziehen",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -3012,7 +3077,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3032,7 +3102,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3102,7 +3177,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3397,7 +3477,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3561,7 +3646,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung für normale Plakate oder Anbringung auf Großplakatwand nötig",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3581,7 +3671,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung für normale Plakate oder Anbringung auf Großplakatwand nötig",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3601,7 +3696,13 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
+
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3801,7 +3902,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -4026,7 +4132,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4141,7 +4252,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": "2 Wochen"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4421,7 +4537,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": false,
+  "rules": "Antrage (z. B. per E-Mail) erforderlich; Neben den städtischen Plakatierungstafeln je Wahlbezirk max. 3 Plakate; max Din A1",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4516,7 +4637,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Nur auf bereitgestellten großen Anschlagtafeln; Platzverteilung durch die Gemeindeverwaltung; Bereich Bad Birnbach: Kreisverkehr in Aunham, Nordzufahrt an der Grotthamer Straße bei Abzweigung Brandstraße, Hans-Moser-Straße Bad Birnbach am Feuerwehrhaus, Ortseinfahrt Lengham aus Richtung Bad Birnbach, Ortsmitte Asenham, Ortsmitte Brombach, Ortsmitte Hirschbach; Bereich Bayerbach: Ortseinfahrt Mühlstraße bei Sportgelände/Tennisheim",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4536,7 +4662,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Nur auf bereitgestellten großen Anschlagtafeln; Platzverteilung durch die Gemeindeverwaltung; Bereich Bad Birnbach: Kreisverkehr in Aunham, Nordzufahrt an der Grotthamer Straße bei Abzweigung Brandstraße, Hans-Moser-Straße Bad Birnbach am Feuerwehrhaus, Ortseinfahrt Lengham aus Richtung Bad Birnbach, Ortsmitte Asenham, Ortsmitte Brombach, Ortsmitte Hirschbach; Bereich Bayerbach: Ortseinfahrt Mühlstraße bei Sportgelände/Tennisheim",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4556,7 +4687,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Nur auf bereitgestellten großen Anschlagtafeln; Platzverteilung durch die Gemeindeverwaltung; Bereich Bad Birnbach: Kreisverkehr in Aunham, Nordzufahrt an der Grotthamer Straße bei Abzweigung Brandstraße, Hans-Moser-Straße Bad Birnbach am Feuerwehrhaus, Ortseinfahrt Lengham aus Richtung Bad Birnbach, Ortsmitte Asenham, Ortsmitte Brombach, Ortsmitte Hirschbach; Bereich Bayerbach: Ortseinfahrt Mühlstraße bei Sportgelände/Tennisheim",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4836,7 +4972,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatwänden; Max Din A1; Ein Plakat pro Standort und Seite; Rathausplatz, Sportplatz Julbach, Kreuzung Hauptstraße / Löwenzahnstraße im Hauptort Julbach, Kreuzung Dorfstraße / Waldblickstraße im OT Oberjulbach, Kreuzung Simbacher Straße / Westendstraße im OT Buch, Türkenbachstraße an der Unterführung B20 (Buswartehäuschen) im OT Untertürken, Kreuzung Seibersdorfer Straße / Holzenerstraße im OT Hart",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -5066,7 +5207,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -6260,7 +6406,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",

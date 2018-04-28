@@ -31,6 +31,12 @@
 <main>
     <div id="map" class="map"></div>
     <div id="list" class="list"></div>
+    <p class="summary">
+        Es wurden insgesamt <span id="posterSum">?</span> Plakate
+        in <span id="locationsSum">?</span>
+        von <span id="locationsCount">?</span>
+        Gemeinden/Städten errechnet.
+    </p>
     <div id="csv" class="csv-wrapper">
         <h3>E-Mail-CSV</h3>
         <textarea readonly="readonly" id="csv-textarea"></textarea>
@@ -38,12 +44,7 @@
 </main>
 
 <footer>
-    <p>
-        Es wurden insgesamt <span>1100</span> Plakate
-        in <span>126</span>
-        von <span>280</span>
-        Gemeinden/Städten errechnet.
-    </p>
+  <p>Ohne Gewähr | Ausschließlich für meinen privaten gebrauch bestimmt!</p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"
