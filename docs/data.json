@@ -902,7 +902,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -992,7 +997,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Max. Din A1; Nicht an den historischen Leuchten im Stadtgebiet",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Freyung-Grafenau",
@@ -1632,7 +1642,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1672,7 +1687,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1892,7 +1912,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": false,
+  "rules": "Antrag mit Plakat-Größe und -Anzahl erforderlich; Nur an Laternenmasten oder Bäumen",
+  "review": false,
+  "before": "",
+  "after": "4 Tage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -2572,7 +2597,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2782,7 +2812,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2927,7 +2962,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3182,7 +3222,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3397,7 +3442,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung erforderlich",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3881,7 +3931,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Mit Genehmigung an bereitgestellten Anschlagtafeln bereits 3 Monate vor der Wahl",
+  "review": false,
+  "before": "4 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4436,7 +4491,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "",
+  "review": false,
+  "before": "4 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4726,7 +4786,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Nur auf bereitgestellten Großplakatständern; Die Verteilung regelt die Gemeindeverwaltung",
+  "review": false,
+  "before": "6 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -4951,7 +5016,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatständern/-wänden: 2 x Tann, 1 x Eiberg, 1 x Zimmern, 1 x Walburgskierchen",
+  "review": false,
+  "before": "4 Wochen",
+  "after": "2 Wochen"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -5081,7 +5151,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatständern/-wänden: 2 x Tann, 1 x Eiberg, 1 x Zimmern, 1 x Walburgskierchen",
+  "review": false,
+  "before": "4 Wochen",
+  "after": "2 Wochen"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -5101,7 +5176,12 @@
     "duplicate": true,
     "zindex": null
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an bereitgestellten Plakatständern/-wänden: 2 x Tann, 1 x Eiberg, 1 x Zimmern, 1 x Walburgskierchen",
+  "review": false,
+  "before": "4 Wochen",
+  "after": "2 Wochen"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -6135,7 +6215,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nur mit beweglichen Wahlplakatständern oder an Straßenlampenmasten",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Straubing-Bogen",
