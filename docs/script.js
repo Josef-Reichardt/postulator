@@ -104,6 +104,7 @@ function refreshTable(hideWithoutPoster, hideAuthorizationRequired) {
     '<th>Plakatierungsbeginn</th>' +
     '<th>Plakatierungsende</th>' +
     '<th>Plakate (berechnet Phase 2)</th>' +
+    '<th>Plakate (manuell)</th>' +
     '</tr></thead><tbody>';
   var lastLandkreis = '';
   var emailMap = {};
@@ -133,11 +134,12 @@ function refreshTable(hideWithoutPoster, hideAuthorizationRequired) {
     table += `<td style="${cellStyle}">${data[i].gemeinde.email || ''} ${emailDuplicateInfo}</td>`;
     table += `<td>${data[i].location.value}</td>`;
     table += `<td>${data[i].posterCount}</td>`;
-    table += `<td>${data[i].withoutAuthorization === true ? 'Ja' : (data[i].withoutAuthorization === true ? 'Nein' : 'Unbekannt')}</td>`;
+    table += `<td>${data[i].withoutAuthorization === true ? 'Ja' : (data[i].withoutAuthorization === false ? 'Nein' : 'Unbekannt')}</td>`;
     table += `<td>${data[i].rules || ''}</td>`;
     table += `<td>${data[i].before || ''}</td>`;
     table += `<td>${data[i].after || ''}</td>`;
     table += `<td>${data[i].posterCount2}</td>`;
+    table += `<td>${data[i].posterCount3 || ''}</td>`;
     table += '</tr>';
     locationsSum++;
     posterSum += data[i].posterCount2;

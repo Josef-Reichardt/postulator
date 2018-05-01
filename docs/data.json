@@ -93,6 +93,7 @@
     "zindex": "1"
   },
   "posterCount": 8,
+  "posterCount3": "12 x DIN A0 (HK)",
   "withoutAuthorization": true,
   "rules": "",
   "review": false,
@@ -143,6 +144,7 @@
     "zindex": "1"
   },
   "posterCount": 28,
+  "posterCount3": "40 x DIN A0 (HK)",
   "withoutAuthorization": false,
   "rules": "Mitteilung, dass plakatiert wird erforderlich, man erhält ein Anmeldeschreiben des Ordnungsamtes; An Verkehrszeichen nur, wenn sich diese auf den ruhenden Verkehr beziehen; Nicht an Bäumen",
   "review": false,
@@ -212,7 +214,8 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "posterCount3": "12 x DIN A1 (HK)"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -278,9 +281,10 @@
     "zindex": "1"
   },
   "posterCount": 4,
+  "posterCount3": "4 x DIN A1 (HK)",
   "withoutAuthorization": true,
   "rules": "Pro Ortsteil nur ein doppelseitig bedrucktes DIN A 1-Plakat pro Fahrtrichtung; Ausschließlich an den dafür gekennzeichneten Straßenlaternen",
-  "review": true,
+  "review": false,
   "before": "",
   "after": "\"umgehend\""
 }, {
@@ -353,9 +357,10 @@
     "zindex": "1"
   },
   "posterCount": 8,
+  "posterCount3": "12 x DIN A1 (HK)",
   "withoutAuthorization": false,
   "rules": "Plakatanzahl & -größe muss gemeldet werden, dann erhält man eine schriftliche Bestätigung mit der Angabe der Aufstellungsorte",
-  "review": true,
+  "review": false,
   "before": "",
   "after": ""
 }, {
@@ -453,6 +458,7 @@
     "zindex": "1"
   },
   "posterCount": 4,
+  "posterCount3": "4 x DIN A0 (HK)",
   "withoutAuthorization": true,
   "rules": "",
   "review": false,
@@ -478,6 +484,7 @@
     "zindex": "1"
   },
   "posterCount": 12,
+  "posterCount3": "16 x DIN A0 (HK)",
   "withoutAuthorization": true,
   "rules": "Nicht am Stadtplatz, in der Altstadt und Vorstadt; nur an sog. Peitschenlampen",
   "review": false,
@@ -528,6 +535,7 @@
     "zindex": "1"
   },
   "posterCount": 16,
+  "posterCount3": "24 x DIN A0 (HK)",
   "withoutAuthorization": false,
   "rules": "Schriftliche Anmeldung per E-Mail oder Post mit Anschrift, Ansprechpartner, Maße und Entwurf des Plakates erforderlich",
   "review": false,
@@ -553,6 +561,7 @@
     "zindex": "1"
   },
   "posterCount": 8,
+  "posterCount3": "12 x DIN A0 (HK)",
   "withoutAuthorization": true,
   "rules": "",
   "review": false,
@@ -623,6 +632,7 @@
     "zindex": "1"
   },
   "posterCount": 4,
+  "posterCount3": "4 x DIN A0 (HK)",
   "withoutAuthorization": false,
   "rules": "Nicht an Verkehrsschilder oder Brücken",
   "review": false,
@@ -648,6 +658,7 @@
     "zindex": "1"
   },
   "posterCount": 20,
+  "posterCount3": "16 x DIN A0 (HK)",
   "withoutAuthorization": true,
   "rules": "",
   "review": false,
@@ -1009,7 +1020,7 @@
   },
   "posterCount": 8,
   "withoutAuthorization": true,
-  "rules": "Max. Din A1; Nicht an den historischen Leuchten im Stadtgebiet",
+  "rules": "Max. DIN A1; Nicht an den historischen Leuchten im Stadtgebiet",
   "review": false,
   "before": "6 Wochen",
   "after": "1 Woche"
@@ -1748,6 +1759,7 @@
     "zindex": "1"
   },
   "posterCount": 16,
+  "posterCount3": "12 x DIN A0 (HK)",
   "withoutAuthorization": false,
   "rules": "Max. 30 Plakate im Stadtgebiet und je 5 Plakate pro Ortsteil; Nicht in der Altstadt (zwischen den Stadttoren bzw. der Brücke über den Bräugraben)",
   "review": false,
@@ -1887,7 +1899,8 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 16
+  "posterCount": 16,
+  "posterCount3": "12 x DIN A1 (HK)"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -1908,6 +1921,7 @@
     "zindex": "1"
   },
   "posterCount": 16,
+  "posterCount3": "0 (Ohne Ortskenntnisse bei den geltendenden Regelungen zu Aufwändig)",
   "withoutAuthorization": false,
   "rules": "Min. 2,5m hoch; nicht an Stromkästen; nicht direkt an Ortseinfahrten und -ausfahrten; nicht an Buswartehäuschen und Straßenlampen; Anschrift und Rufnummer muss auf dem Plakat stehen",
   "review": false,
@@ -2264,7 +2278,7 @@
   },
   "posterCount": 8,
   "withoutAuthorization": true,
-  "rules": "Max. Din A1; max. 10 Stück",
+  "rules": "Max. DIN A1; max. 10 Stück",
   "review": true,
   "before": "",
   "after": "\"zeitnah\""
@@ -3254,7 +3268,7 @@
   },
   "posterCount": 8,
   "withoutAuthorization": false,
-  "rules": "Plakatierung muss angemeldet werden; Nicht an Bäumen oder Orten auf der örtlichen \"Negativliste\"; Min. 2m hoch; Max Din A1",
+  "rules": "Plakatierung muss angemeldet werden; Nicht an Bäumen oder Orten auf der örtlichen \"Negativliste\"; Min. 2m hoch; Max DIN A1",
   "review": false,
   "before": "6 Wochen",
   "after": "1 Woche"
@@ -3626,7 +3640,13 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 16
+  "posterCount": 16,
+  "posterCount3": "12 x DIN A0 (HK)",
+  "withoutAuthorization": true,
+  "rules": "Fünf städtische Anschlagtafeln (Anmeldung dafür bei Plakatierservice Herr Müller Thomas 0170/2933632); Oder \"normale\" Plakate: 1,5m Abstand zur Fahrbahn bzw. an Lichtmasten 2,5m hoch",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "29.10.2018"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3927,7 +3947,8 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 20
+  "posterCount": 20,
+  "posterCount3": "16 x DIN A1 (HK)"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -4204,7 +4225,7 @@
   },
   "posterCount": 0,
   "withoutAuthorization": false,
-  "rules": "Genehmigung erforderlich; max. 25 Plakate; max Din A0; Nur an Straßenlampen oder Halteverbotszeichen; min. 2,25m hoch",
+  "rules": "Genehmigung erforderlich; max. 25 Plakate; max DIN A0; Nur an Straßenlampen oder Halteverbotszeichen; min. 2,25m hoch",
   "review": false,
   "before": "8 Wochen",
   "after": "1 Woche"
@@ -4539,7 +4560,7 @@
   },
   "posterCount": 12,
   "withoutAuthorization": false,
-  "rules": "Antrage (z. B. per E-Mail) erforderlich; Neben den städtischen Plakatierungstafeln je Wahlbezirk max. 3 Plakate; max Din A1",
+  "rules": "Antrage (z. B. per E-Mail) erforderlich; Neben den städtischen Plakatierungstafeln je Wahlbezirk max. 3 Plakate; max DIN A1",
   "review": false,
   "before": "",
   "after": "1 Woche"
@@ -4739,7 +4760,7 @@
   },
   "posterCount": 16,
   "withoutAuthorization": false,
-  "rules": "Ausschließlich an den von der Stadt bestimmten Plakatsäulen und Plakatanschlagtafeln bzw. Großplakatständern (25 Stk. für je 10 Din A1-/Din A0-Plakate); die Verteilung der zur Verfügung stehenden Flächen erfolgt durch die Verwaltung; \"Wir werden Sie ca. 8 Wochen vor der Wahl schriftlich informieren, wie viele Flächen für Ihre Partei zur Verfügung gestellt werden und wo die Anbringung der Wahlplakate erfolgen kann.\"",
+  "rules": "Ausschließlich an den von der Stadt bestimmten Plakatsäulen und Plakatanschlagtafeln bzw. Großplakatständern (25 Stk. für je 10 DIN A1-/DIN A0-Plakate); die Verteilung der zur Verfügung stehenden Flächen erfolgt durch die Verwaltung; \"Wir werden Sie ca. 8 Wochen vor der Wahl schriftlich informieren, wie viele Flächen für Ihre Partei zur Verfügung gestellt werden und wo die Anbringung der Wahlplakate erfolgen kann.\"",
   "review": false,
   "before": "",
   "after": ""
@@ -4764,7 +4785,7 @@
   },
   "posterCount": 0,
   "withoutAuthorization": false,
-  "rules": "Max. 4 Plakate; max Din A2; An Lichtmasten",
+  "rules": "Max. 4 Plakate; max DIN A2; An Lichtmasten",
   "review": false,
   "before": "",
   "after": "\"zeitnah\""
@@ -4974,7 +4995,7 @@
   },
   "posterCount": 0,
   "withoutAuthorization": true,
-  "rules": "Nur an bereitgestellten Plakatwänden; Max Din A1; Ein Plakat pro Standort und Seite; Rathausplatz, Sportplatz Julbach, Kreuzung Hauptstraße / Löwenzahnstraße im Hauptort Julbach, Kreuzung Dorfstraße / Waldblickstraße im OT Oberjulbach, Kreuzung Simbacher Straße / Westendstraße im OT Buch, Türkenbachstraße an der Unterführung B20 (Buswartehäuschen) im OT Untertürken, Kreuzung Seibersdorfer Straße / Holzenerstraße im OT Hart",
+  "rules": "Nur an bereitgestellten Plakatwänden; Max DIN A1; Ein Plakat pro Standort und Seite; Rathausplatz, Sportplatz Julbach, Kreuzung Hauptstraße / Löwenzahnstraße im Hauptort Julbach, Kreuzung Dorfstraße / Waldblickstraße im OT Oberjulbach, Kreuzung Simbacher Straße / Westendstraße im OT Buch, Türkenbachstraße an der Unterführung B20 (Buswartehäuschen) im OT Untertürken, Kreuzung Seibersdorfer Straße / Holzenerstraße im OT Hart",
   "review": false,
   "before": "",
   "after": ""
@@ -4999,7 +5020,7 @@
   },
   "posterCount": 8,
   "withoutAuthorization": false,
-  "rules": "Auf 5 bereitgestellten Großplakatständern (Vorder- und Rückseite nutzbar); max. Din A1; max. 10 Plakate (eines je Feld); Antrag erforderlich",
+  "rules": "Auf 5 bereitgestellten Großplakatständern (Vorder- und Rückseite nutzbar); max. DIN A1; max. 10 Plakate (eines je Feld); Antrag erforderlich",
   "review": false,
   "before": "10.08.2018",
   "after": ""
@@ -5593,7 +5614,7 @@
   },
   "posterCount": 12,
   "withoutAuthorization": false,
-  "rules": "Schriftlicher Antrag mit Angabe eines Verantwortlichen; Max. 50 Plakate; Max. Din A1; Aufkleber für genehmigte Plakate erforderlich; Nicht an neue Lichtmasten in der Straubinger Str.; Nicht in Kreuzungsbereichen, an Verkehrszeichen, Ortshinweistafeln, im Bereich des Rathauses (Bannmeile), Geländer der Bogenbachbrücke, Verkehrsinseln, Blumenbeete der Stadt Bogen, Einmündungen von Straßen, nicht mehrere gleiche Plakate nebeneinander, an Bäumen",
+  "rules": "Schriftlicher Antrag mit Angabe eines Verantwortlichen; Max. 50 Plakate; Max. DIN A1; Aufkleber für genehmigte Plakate erforderlich; Nicht an neue Lichtmasten in der Straubinger Str.; Nicht in Kreuzungsbereichen, an Verkehrszeichen, Ortshinweistafeln, im Bereich des Rathauses (Bannmeile), Geländer der Bogenbachbrücke, Verkehrsinseln, Blumenbeete der Stadt Bogen, Einmündungen von Straßen, nicht mehrere gleiche Plakate nebeneinander, an Bäumen",
   "review": true,
   "before": "09.09.2018",
   "after": "21.10.2018"
@@ -5888,7 +5909,7 @@
   },
   "posterCount": 8,
   "withoutAuthorization": false,
-  "rules": "\"Gebühr sind normal 10 €/Woche\"; Max Din A0; In Mallersdorf und Pfaffenberg insgesamt max. 5 Plakate, in den übrigen Ortsteilen jeweils max. 2; Nur an Straßenlampen; Nicht an der Einmündung zum Wohnhaus Ascholtshausen 20; 75 cm zur Fahrbankante",
+  "rules": "\"Gebühr sind normal 10 €/Woche\"; Max DIN A0; In Mallersdorf und Pfaffenberg insgesamt max. 5 Plakate, in den übrigen Ortsteilen jeweils max. 2; Nur an Straßenlampen; Nicht an der Einmündung zum Wohnhaus Ascholtshausen 20; 75 cm zur Fahrbankante",
   "review": true,
   "before": "2 Wochen",
   "after": "\"unmittelbar\""
@@ -6451,7 +6472,8 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 44
+  "posterCount": 44,
+  "posterCount3": "32 x DIN A1 (HK)"
 }, {
   "gemeinde": {
     "landkreis": null,
@@ -6472,8 +6494,9 @@
     "zindex": "1"
   },
   "posterCount": 36,
+  "posterCount3": "28 x DIN A1 (HK)",
   "withoutAuthorization": false,
-  "rules": "Max. Din A1; Nicht im Bereich Alt- und Innenstadt (begrenzt von Donau und Inn und einer Linie Bahnhofstraße, Dr.-Hans-Kapfinger-Straße, Kleiner Exerzierplatz und Augustinergasse, diese Straßen jeweils beidseitig eingeschlossen); nicht auf Brücken, bei der Schanzl- und Franz-Josef-Strauß-Brücke auch nicht auf den Rampen; Nur innerorts außer an der B 8 (Regensburger Straße) zwischen Stelzhamer Straße und Haitzingerbrücke, an der B 12 Nord (Bayerwaldstraße/Freyunger Straße) zwischen Ilzleite und Am Bramerhof, an der St 2120 (Neuburger Straße) zwischen  Pionierstraße und Messestraße, an der B 85 (Hacklberg) zwischen Stephanstraße und Vilshofener Straße; Nicht auf Verkehrsinseln oder Mittelstreifen, jeweils 50 m vor Kreuzungen und Einmündungen, an Pfosten oder Laternenmasten mit Verkehrszeichen, auch nicht auf deren Rückseite, an Bushaltestellen und Wartehäuschen, an Bauzäunen und Gerüsten auf öffentlichem Verkehrsgrund, an Bäumen; seitlicher Abstand von min. 0,5m zum Fahrbahnrand; min 2,25m hoch; Evtl. wird der Plakatierungsbeginn noch nach vorne (evtl. drei Monate vor Wahl) verlegt",
+  "rules": "Max. DIN A1; Nicht im Bereich Alt- und Innenstadt (begrenzt von Donau und Inn und einer Linie Bahnhofstraße, Dr.-Hans-Kapfinger-Straße, Kleiner Exerzierplatz und Augustinergasse, diese Straßen jeweils beidseitig eingeschlossen); nicht auf Brücken, bei der Schanzl- und Franz-Josef-Strauß-Brücke auch nicht auf den Rampen; Nur innerorts außer an der B 8 (Regensburger Straße) zwischen Stelzhamer Straße und Haitzingerbrücke, an der B 12 Nord (Bayerwaldstraße/Freyunger Straße) zwischen Ilzleite und Am Bramerhof, an der St 2120 (Neuburger Straße) zwischen  Pionierstraße und Messestraße, an der B 85 (Hacklberg) zwischen Stephanstraße und Vilshofener Straße; Nicht auf Verkehrsinseln oder Mittelstreifen, jeweils 50 m vor Kreuzungen und Einmündungen, an Pfosten oder Laternenmasten mit Verkehrszeichen, auch nicht auf deren Rückseite, an Bushaltestellen und Wartehäuschen, an Bauzäunen und Gerüsten auf öffentlichem Verkehrsgrund, an Bäumen; seitlicher Abstand von min. 0,5m zum Fahrbahnrand; min 2,25m hoch; Evtl. wird der Plakatierungsbeginn noch nach vorne (evtl. drei Monate vor Wahl) verlegt",
   "review": false,
   "before": "6 Wochen",
   "after": "1 Woche"
@@ -6497,9 +6520,10 @@
     "zindex": "1"
   },
   "posterCount": 36,
+  "posterCount3": "28 x DIN A1 (HK)",
   "withoutAuthorization": false,
   "rules": "Einzelheiten werden erst am 14.06.2018 entschieden",
-  "review": true,
+  "review": false,
   "before": "8 Wochen",
   "after": "1 Woche"
 }]
