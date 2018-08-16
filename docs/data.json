@@ -95,7 +95,7 @@
   "posterCount": 8,
   "posterCount3": "12 x DIN A0 (HK)",
   "withoutAuthorization": true,
-  "rules": "",
+  "rules": "Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "",
   "after": "1 Woche"
@@ -146,7 +146,7 @@
   "posterCount": 28,
   "posterCount3": "40 x DIN A0 (HK)",
   "withoutAuthorization": false,
-  "rules": "Mitteilung, dass plakatiert wird erforderlich, man erhält ein Anmeldeschreiben des Ordnungsamtes; An Verkehrszeichen nur, wenn sich diese auf den ruhenden Verkehr beziehen; Nicht an Bäumen",
+  "rules": "Mitteilung, dass plakatiert wird erforderlich, man erhält ein Anmeldeschreiben des Ordnungsamtes; An Verkehrszeichen nur, wenn sich diese auf den ruhenden Verkehr beziehen; Nicht an Bäumen.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "6 Wochen",
   "after": "6 Tage"
@@ -215,7 +215,12 @@
     "zindex": "1"
   },
   "posterCount": 8,
-  "posterCount3": "12 x DIN A1 (HK)"
+  "posterCount3": "12 x DIN A1 (HK)",
+  "withoutAuthorization": true,
+  "rules": "Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
+  "review": false,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Deggendorf",
@@ -283,7 +288,7 @@
   "posterCount": 4,
   "posterCount3": "4 x DIN A1 (HK)",
   "withoutAuthorization": true,
-  "rules": "Pro Ortsteil nur ein doppelseitig bedrucktes DIN A 1-Plakat pro Fahrtrichtung; Ausschließlich an den dafür gekennzeichneten Straßenlaternen",
+  "rules": "Pro Ortsteil nur ein doppelseitig bedrucktes DIN A 1-Plakat pro Fahrtrichtung; Ausschließlich an den dafür gekennzeichneten Straßenlaternen.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "",
   "after": "\"umgehend\""
@@ -359,7 +364,7 @@
   "posterCount": 8,
   "posterCount3": "12 x DIN A1 (HK)",
   "withoutAuthorization": false,
-  "rules": "Plakatanzahl & -größe muss gemeldet werden, dann erhält man eine schriftliche Bestätigung mit der Angabe der Aufstellungsorte",
+  "rules": "Plakatanzahl & -größe muss gemeldet werden, dann erhält man eine schriftliche Bestätigung mit der Angabe der Aufstellungsorte.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "",
   "after": ""
@@ -460,7 +465,7 @@
   "posterCount": 4,
   "posterCount3": "4 x DIN A0 (HK)",
   "withoutAuthorization": true,
-  "rules": "",
+  "rules": "Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "6 Wochen",
   "after": ""
@@ -486,7 +491,7 @@
   "posterCount": 12,
   "posterCount3": "16 x DIN A0 (HK)",
   "withoutAuthorization": true,
-  "rules": "Nicht am Stadtplatz, in der Altstadt und Vorstadt; nur an sog. Peitschenlampen",
+  "rules": "Nicht am Stadtplatz, in der Altstadt und Vorstadt; nur an sog. Peitschenlampen.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "6 Wochen",
   "after": "1 Woche"
@@ -537,7 +542,7 @@
   "posterCount": 16,
   "posterCount3": "24 x DIN A0 (HK)",
   "withoutAuthorization": false,
-  "rules": "Schriftliche Anmeldung per E-Mail oder Post mit Anschrift, Ansprechpartner, Maße und Entwurf des Plakates erforderlich",
+  "rules": "Schriftliche Anmeldung per E-Mail oder Post mit Anschrift, Ansprechpartner, Maße und Entwurf des Plakates erforderlich.<br>Konkrete E-Mail-Anfrage/-Anmeldung (inkl. Entwurf) gesendet.",
   "review": false,
   "before": "",
   "after": ""
@@ -563,7 +568,7 @@
   "posterCount": 8,
   "posterCount3": "12 x DIN A0 (HK)",
   "withoutAuthorization": true,
-  "rules": "",
+  "rules": "Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "",
   "after": ""
@@ -634,7 +639,7 @@
   "posterCount": 4,
   "posterCount3": "4 x DIN A0 (HK)",
   "withoutAuthorization": false,
-  "rules": "Nicht an Verkehrsschilder oder Brücken",
+  "rules": "Nicht an Verkehrsschilder oder Brücken.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "3 Monate",
   "after": ""
@@ -660,7 +665,7 @@
   "posterCount": 20,
   "posterCount3": "16 x DIN A0 (HK)",
   "withoutAuthorization": true,
-  "rules": "",
+  "rules": "Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "6 Wochen",
   "after": ""
@@ -763,7 +768,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": false,
+  "rules": "Muss beantragt werden. Man erhält dann 10 Aufkleber und darf entsprechend max. 10 Plakate aufhängen",
+  "review": false,
+  "before": "03.09.2018",
+  "after": "29.10.2018"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Dingolfing-Landau",
@@ -1761,7 +1771,7 @@
   "posterCount": 16,
   "posterCount3": "12 x DIN A0 (HK)",
   "withoutAuthorization": false,
-  "rules": "Max. 30 Plakate im Stadtgebiet und je 5 Plakate pro Ortsteil; Nicht in der Altstadt (zwischen den Stadttoren bzw. der Brücke über den Bräugraben)",
+  "rules": "Max. 30 Plakate im Stadtgebiet und je 5 Plakate pro Ortsteil; Nicht in der Altstadt (zwischen den Stadttoren bzw. der Brücke über den Bräugraben).<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "6 Wochen",
   "after": "1 Woche"
@@ -1900,7 +1910,12 @@
     "zindex": "1"
   },
   "posterCount": 16,
-  "posterCount3": "12 x DIN A1 (HK)"
+  "posterCount3": "12 x DIN A1 (HK)",
+  "withoutAuthorization": null,
+  "rules": "Anfrage wurde mit eine nicht ausgefüllten \"Beispiel-Genehmigung\" beantwortet. Ich habe nochmal nachgefragt.",
+  "review": true,
+  "before": "",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Kelheim",
@@ -2341,7 +2356,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 4
+  "posterCount": 4,
+  "withoutAuthorization": true,
+  "rules": "Nur innerorts; Nur an Straßenlampen; Nicht auf der Zufahrt zum Möbelhaus Biller (Straße \"Am Moos\"); Maximale Plakatzahlen beachten: Hofham: 2, Eching: 2, Viecht: 2, Haunwang: 2, Berghofen: 2, Kronwinkl: 2, Weixerau: 3, Haselfurth: 1, Thal: 1",
+  "review": false,
+  "before": "",
+  "after": "17.10.2018 20:00 Uhr"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2436,7 +2456,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 12
+  "posterCount": 12,
+  "withoutAuthorization": true,
+  "rules": "Nicht an Verkehrsschildern, Ampeln oder Bäumen; Zusätzlich werden Wahlplakatständer bereitgestellt (auf 1 Seite nur 1 Plakat je Partei); Plakatierung an Laternen erlaubt",
+  "review": false,
+  "before": "",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -2936,7 +2961,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nur an erlaubten Stellen, diese werden ab Mitte August auf vilsheim.de veröffentlicht",
+  "review": false,
+  "before": "8 Wochen",
+  "after": ""
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Landshut",
@@ -3567,11 +3597,11 @@
     "zindex": "1"
   },
   "posterCount": 0,
-  "withoutAuthorization": true,
-  "rules": "",
+  "withoutAuthorization": false,
+  "rules": "Nur an nicht verbotenen Orten erlaubt; Ein Ansprechpartner muss benannt werden",
   "review": false,
-  "before": "",
-  "after": "8 Tage"
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3643,7 +3673,7 @@
   "posterCount": 16,
   "posterCount3": "12 x DIN A0 (HK)",
   "withoutAuthorization": true,
-  "rules": "Fünf städtische Anschlagtafeln (Anmeldung dafür bei Plakatierservice Herr Müller Thomas 0170/2933632); Oder \"normale\" Plakate: 1,5m Abstand zur Fahrbahn bzw. an Lichtmasten 2,5m hoch",
+  "rules": "Fünf städtische Anschlagtafeln (Anmeldung dafür bei Plakatierservice Herr Müller Thomas 0170/2933632); Oder \"normale\" Plakate: 1,5m Abstand zur Fahrbahn bzw. an Lichtmasten 2,5m hoch.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "6 Wochen",
   "after": "29.10.2018"
@@ -3767,7 +3797,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 8
+  "posterCount": 8,
+  "withoutAuthorization": true,
+  "rules": "Nur an vier bestimmten Orten, siehe Plakatierungsverordnungsplan.",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -3948,7 +3983,12 @@
     "zindex": "1"
   },
   "posterCount": 20,
-  "posterCount3": "16 x DIN A1 (HK)"
+  "posterCount3": "16 x DIN A1 (HK)",
+  "withoutAuthorization": false,
+  "rules": "Plakatierung muss unter Nennung eines Verantwortlichen per E-Mail angezeigt werden; Nur an folgenden Orten erlaubt: <br>Hördterbergstr. zuzügl. Hördt nur ab Bahnunterführung stadtauswärts insg. max. 6, <br>Kapuzinerstr. Ab Einmündung Jahnallee bis einschl. BayWa-Gelände max. 12, <br>Schweikelbergstr. max. 6, <br>Aidenbacher Str. Ab Bahunterführung stadtauswärts bis Einmündung Ziegelfeldstr. max. 12, <br>Ortenburger Str. max. 12, <br>Kloster-Mondsee-Str. max. 6, <br>Passauer Str. Ab Einmündung Bahnhofstr. stadtauswärts max. 6, <br>Albersdorfer Hauptstr. max. 6, <br>Hauptstr, Alte Str. u. Daxlarner Str. in Pleinting insg. max. 12, <br>Alkofener Hauptsr. max. 12, <br>Vilshofener Str., Aldersbacher Str., Beutelsbacher Str. in Aunkirchen insg. max. 12, <br>Zeitlarner Str. max. 12, <br>Sandbacher Str. zuzügl. Seestetten insg. max. 12<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "3 Werktage"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Passau",
@@ -4368,7 +4408,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": false,
+  "rules": "Genehmigung muss zwei Wochen vorher schriftlich beantragt weden; Nur an zugelassenen Flächen; Max. Din A1; Max. jeder fünfte Laternenmast",
+  "review": false,
+  "before": "6 Wochen",
+  "after": "2 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Regen",
@@ -4923,7 +4968,12 @@
     "duplicate": false,
     "zindex": "1"
   },
-  "posterCount": 0
+  "posterCount": 0,
+  "withoutAuthorization": true,
+  "rules": "Nicht an Straßenlaternen; Ständer auf Grünstreifen sind erlaubt",
+  "review": false,
+  "before": "4 Wochen",
+  "after": "1 Woche"
 }, {
   "gemeinde": {
     "landkreis": "Landkreis Rottal-Inn",
@@ -6473,7 +6523,9 @@
     "zindex": "1"
   },
   "posterCount": 44,
-  "posterCount3": "32 x DIN A1 (HK)"
+  "posterCount3": "32 x DIN A1 (HK)",
+  "rules": "Muss hier nicht berücksichtigt werden, wird separat behandelt. Die Plakate wurden bereits bestellt und werden an anderen Orten aufgehängt.",
+  "review": true
 }, {
   "gemeinde": {
     "landkreis": null,
@@ -6496,7 +6548,7 @@
   "posterCount": 36,
   "posterCount3": "28 x DIN A1 (HK)",
   "withoutAuthorization": false,
-  "rules": "Max. DIN A1; Nicht im Bereich Alt- und Innenstadt (begrenzt von Donau und Inn und einer Linie Bahnhofstraße, Dr.-Hans-Kapfinger-Straße, Kleiner Exerzierplatz und Augustinergasse, diese Straßen jeweils beidseitig eingeschlossen); nicht auf Brücken, bei der Schanzl- und Franz-Josef-Strauß-Brücke auch nicht auf den Rampen; Nur innerorts außer an der B 8 (Regensburger Straße) zwischen Stelzhamer Straße und Haitzingerbrücke, an der B 12 Nord (Bayerwaldstraße/Freyunger Straße) zwischen Ilzleite und Am Bramerhof, an der St 2120 (Neuburger Straße) zwischen  Pionierstraße und Messestraße, an der B 85 (Hacklberg) zwischen Stephanstraße und Vilshofener Straße; Nicht auf Verkehrsinseln oder Mittelstreifen, jeweils 50 m vor Kreuzungen und Einmündungen, an Pfosten oder Laternenmasten mit Verkehrszeichen, auch nicht auf deren Rückseite, an Bushaltestellen und Wartehäuschen, an Bauzäunen und Gerüsten auf öffentlichem Verkehrsgrund, an Bäumen; seitlicher Abstand von min. 0,5m zum Fahrbahnrand; min 2,25m hoch; Evtl. wird der Plakatierungsbeginn noch nach vorne (evtl. drei Monate vor Wahl) verlegt",
+  "rules": "Max. DIN A1; Nicht im Bereich Alt- und Innenstadt (begrenzt von Donau und Inn und einer Linie Bahnhofstraße, Dr.-Hans-Kapfinger-Straße, Kleiner Exerzierplatz und Augustinergasse, diese Straßen jeweils beidseitig eingeschlossen); nicht auf Brücken, bei der Schanzl- und Franz-Josef-Strauß-Brücke auch nicht auf den Rampen; Nur innerorts außer an der B 8 (Regensburger Straße) zwischen Stelzhamer Straße und Haitzingerbrücke, an der B 12 Nord (Bayerwaldstraße/Freyunger Straße) zwischen Ilzleite und Am Bramerhof, an der St 2120 (Neuburger Straße) zwischen  Pionierstraße und Messestraße, an der B 85 (Hacklberg) zwischen Stephanstraße und Vilshofener Straße; Nicht auf Verkehrsinseln oder Mittelstreifen, jeweils 50 m vor Kreuzungen und Einmündungen, an Pfosten oder Laternenmasten mit Verkehrszeichen, auch nicht auf deren Rückseite, an Bushaltestellen und Wartehäuschen, an Bauzäunen und Gerüsten auf öffentlichem Verkehrsgrund, an Bäumen; seitlicher Abstand von min. 0,5m zum Fahrbahnrand; min 2,25m hoch; Evtl. wird der Plakatierungsbeginn noch nach vorne (evtl. drei Monate vor Wahl) verlegt.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "6 Wochen",
   "after": "1 Woche"
@@ -6522,7 +6574,7 @@
   "posterCount": 36,
   "posterCount3": "28 x DIN A1 (HK)",
   "withoutAuthorization": false,
-  "rules": "Einzelheiten werden erst am 14.06.2018 entschieden",
+  "rules": "Einzelheiten werden erst am 14.06.2018 entschieden.<br>Konkrete E-Mail-Anfrage/-Anmeldung gesendet.",
   "review": false,
   "before": "8 Wochen",
   "after": "1 Woche"
